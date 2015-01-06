@@ -1,0 +1,23 @@
+{
+  "name": "jsonpath-to-dot",
+  "version": "0.0.0",
+  "description": "Convert a JSONPath into dotnotation",
+  "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
+  "license": "MIT",
+  "homepage": "http://github.com/imlucas/jsonpath-to-dot",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imlucas/jsonpath-to-dot.git"
+  },
+  "keywords": [
+    "mongodb.js",
+    "jsonpath",
+    "jsonpath dotnotation"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0"
+  }
+}
