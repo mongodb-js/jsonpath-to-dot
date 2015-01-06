@@ -1,6 +1,6 @@
 {
   "name": "jsonpath-to-dot",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert a JSONPath into dotnotation",
   "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
   "license": "MIT",
