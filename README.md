@@ -11,7 +11,7 @@ var toDot = require('jsonpath-to-dot');
 console.log(toDot('/tags'));
 // 'tags'
 console.log(toDot('/tags/1'));
-// 'tags'
+// 'tags.1'
 console.log(toDot('/tags/blah'));
 // 'tags.blah'
 ```
