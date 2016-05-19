@@ -4,7 +4,5 @@
  * @returns {string} The object key.
  */
 module.exports = function(path){
-  return path.replace('/', '').split('/').filter(function(k){
-    return !/\d/.test(k);
-  }).join('.');
+  return path.replace(/^\//, '').replace(/\//g, '.');
 };

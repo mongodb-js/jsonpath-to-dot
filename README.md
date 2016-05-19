@@ -1,6 +1,6 @@
 # jsonpath-to-dot
 
-[![build status](https://secure.travis-ci.org/imlucas/jsonpath-to-dot.png)](http://travis-ci.org/imlucas/jsonpath-to-dot)
+[![build status](https://secure.travis-ci.org/mongodb-js/jsonpath-to-dot.png)](http://travis-ci.org/mongodb-js/jsonpath-to-dot)
 
 Convert a JSONPath into dotnotation.
 
@@ -11,7 +11,7 @@ var toDot = require('jsonpath-to-dot');
 console.log(toDot('/tags'));
 // 'tags'
 console.log(toDot('/tags/1'));
-// 'tags'
+// 'tags.1'
 console.log(toDot('/tags/blah'));
 // 'tags.blah'
 ```
